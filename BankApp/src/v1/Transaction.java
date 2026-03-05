@@ -50,4 +50,4 @@ public class Transaction {
         return balanceAfter;
         }
     }
-   // end class Transaction
+   // end the class Transaction
