@@ -49,5 +49,9 @@ public class Transaction {
     public double getBalance() {
         return balanceAfter;
         }
+    public String toString() {
+        return time + " | " + type + " | " + String.format("%.2f", amount) + " | " + note + " | " + String.format("%.2f", balanceAfter);
+        }
+                                                                                    
     }
    // end class Transaction
