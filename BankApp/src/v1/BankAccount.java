@@ -46,7 +46,6 @@ public class BankAccount
             }
         //check if it's an overdraft
         if (amount > balance) {
-            System.out.println("Insufficient funds");
             return false;
             }
         //subtracts amount from total balance
