@@ -1,7 +1,8 @@
 
 package v1;
 import java.util.ArrayList;
-
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
 /**
  * 
  * @author Hunter Larson
@@ -64,6 +65,10 @@ public class BankAccount
             }
         //gives total balance at the end
         System.out.println("Current balance: " + getBalance());
+        }
+    //save and load method
+    public void saveToCSV(String filename) {
+        
         }
     }
    // end class BankAccount
